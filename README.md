@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'LAK', { apiKey: 'art_live_...' });
 {
   bank: 'bol',
   name: 'Bank of the Lao PDR',
-  rate_date: '2026-09-25',   // Bank of the Lao PDR's own publication date
+  rate_date: '2026-10-06',   // Bank of the Lao PDR's own publication date
   source: 'USD',
   target: 'LAK',
-  rate: 22552,
+  rate: 22595,
   rate_type: 'sell',
   derived: false,
   method: 'published',
@@ -113,10 +113,10 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bol',
   name: 'Bank of the Lao PDR',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "LAK", "type": "sell", "value": 22552 },
-    { "base": "USD", "quote": "LAK", "type": "buy", "value": 22329 },
+    { "base": "USD", "quote": "LAK", "type": "sell", "value": 22595 },
+    { "base": "USD", "quote": "LAK", "type": "buy", "value": 22372 },
     // … the rest of the published table (14 currencies vs LAK)
   ],
   disclaimer: '…'
@@ -156,7 +156,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bank-of-laos-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'LAK', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'USD', target: 'LAK', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -169,11 +169,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'LAK',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 22552, rate_type: 'sell', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 22595, rate_type: 'sell', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
