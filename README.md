@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/bank-of-laos-exchange-rate.svg)](https://github.com/AllRates-Today/bank-of-laos-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/bank-of-laos-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/LAK today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbol%3Fsource%3DUSD%26target%3DLAK&query=%24.rate&label=USD%2FLAK%20published%20by%20Bank%20of%20the%20Lao%20PDR&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bol/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbol%3Fsource%3DUSD%26target%3DLAK&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bol/)
 
 **Official Bank of the Lao PDR (Laos) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Bank of the Lao PDR itself prints, every business day.**
 
@@ -32,6 +34,47 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Bank of the Lao PDR table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Bank of the Lao PDR — 28 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AUD | LAK | buy | 15423 |
+| AUD | LAK | sell | 15731 |
+| CAD | LAK | buy | 15532 |
+| CAD | LAK | sell | 15843 |
+| CHF | LAK | buy | 26608 |
+| CHF | LAK | sell | 27140 |
+| CNY | LAK | buy | 3321 |
+| CNY | LAK | sell | 3346 |
+| EUR | LAK | buy | 25136 |
+| EUR | LAK | sell | 25390 |
+| GBP | LAK | buy | 29365 |
+| GBP | LAK | sell | 29952 |
+| HKD | LAK | buy | 2794 |
+| HKD | LAK | sell | 2851 |
+| JPY | LAK | buy | 143.19 |
+| JPY | LAK | sell | 146.05 |
+| KRW | LAK | buy | 16.26 |
+| KRW | LAK | sell | 16.57 |
+| MYR | LAK | buy | 5372 |
+| MYR | LAK | sell | 5480 |
+| SGD | LAK | buy | 17144 |
+| SGD | LAK | sell | 17485 |
+| THB | LAK | buy | 672.7 |
+| THB | LAK | sell | 683 |
+| USD | LAK | buy | 22376 |
+| USD | LAK | sell | 22599 |
+| VND | LAK | buy | 0.8445 |
+| VND | LAK | sell | 0.8613 |
+
+Source: [Official rates published by BOL, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bol/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
