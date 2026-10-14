@@ -42,38 +42,38 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by Bank of the Lao PDR — 28 rates. Updated 2026-10-13.
+Published **2026-10-14** by Bank of the Lao PDR — 28 rates. Updated 2026-10-14.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | LAK | buy | 15421 |
-| AUD | LAK | sell | 15729 |
-| CAD | LAK | buy | 15539 |
-| CAD | LAK | sell | 15849 |
-| CHF | LAK | buy | 26617 |
-| CHF | LAK | sell | 27149 |
-| CNY | LAK | buy | 3329 |
-| CNY | LAK | sell | 3354 |
-| EUR | LAK | buy | 25086 |
-| EUR | LAK | sell | 25339 |
-| GBP | LAK | buy | 29397 |
-| GBP | LAK | sell | 29985 |
-| HKD | LAK | buy | 2796 |
-| HKD | LAK | sell | 2853 |
-| JPY | LAK | buy | 142.85 |
-| JPY | LAK | sell | 145.7 |
-| KRW | LAK | buy | 16.26 |
-| KRW | LAK | sell | 16.57 |
-| MYR | LAK | buy | 5373 |
-| MYR | LAK | sell | 5481 |
-| SGD | LAK | buy | 17144 |
-| SGD | LAK | sell | 17485 |
+| AUD | LAK | buy | 15496 |
+| AUD | LAK | sell | 15805 |
+| CAD | LAK | buy | 15606 |
+| CAD | LAK | sell | 15918 |
+| CHF | LAK | buy | 26634 |
+| CHF | LAK | sell | 27167 |
+| CNY | LAK | buy | 3328 |
+| CNY | LAK | sell | 3353 |
+| EUR | LAK | buy | 25155 |
+| EUR | LAK | sell | 25409 |
+| GBP | LAK | buy | 29488 |
+| GBP | LAK | sell | 30078 |
+| HKD | LAK | buy | 2795 |
+| HKD | LAK | sell | 2852 |
+| JPY | LAK | buy | 142.71 |
+| JPY | LAK | sell | 145.57 |
+| KRW | LAK | buy | 16.25 |
+| KRW | LAK | sell | 16.55 |
+| MYR | LAK | buy | 5378 |
+| MYR | LAK | sell | 5485 |
+| SGD | LAK | buy | 17150 |
+| SGD | LAK | sell | 17492 |
 | THB | LAK | buy | 672.7 |
 | THB | LAK | sell | 683 |
-| USD | LAK | buy | 22392 |
-| USD | LAK | sell | 22615 |
-| VND | LAK | buy | 0.8467 |
-| VND | LAK | sell | 0.8636 |
+| USD | LAK | buy | 22385 |
+| USD | LAK | sell | 22608 |
+| VND | LAK | buy | 0.8471 |
+| VND | LAK | sell | 0.864 |
 
 Source: [Official rates published by BOL, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bol/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
