@@ -33,47 +33,50 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/bol').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Bank of the Lao PDR table](https://allratestoday.com/api/open/central-bank/bol/table.svg)](https://allratestoday.com/central-bank-rates-api/bol/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by Bank of the Lao PDR — 28 rates. Updated 2026-10-17.
+<details>
+<summary>Table as text: published 2026-10-19 by Bank of the Lao PDR — 28 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | LAK | buy | 15354 |
-| AUD | LAK | sell | 15661 |
-| CAD | LAK | buy | 15620 |
-| CAD | LAK | sell | 15932 |
-| CHF | LAK | buy | 26775 |
-| CHF | LAK | sell | 27310 |
-| CNY | LAK | buy | 3330 |
-| CNY | LAK | sell | 3355 |
-| EUR | LAK | buy | 25171 |
-| EUR | LAK | sell | 25426 |
-| GBP | LAK | buy | 29511 |
-| GBP | LAK | sell | 30101 |
+| AUD | LAK | buy | 15447 |
+| AUD | LAK | sell | 15756 |
+| CAD | LAK | buy | 15702 |
+| CAD | LAK | sell | 16015 |
+| CHF | LAK | buy | 26901 |
+| CHF | LAK | sell | 27439 |
+| CNY | LAK | buy | 3333 |
+| CNY | LAK | sell | 3358 |
+| EUR | LAK | buy | 25210 |
+| EUR | LAK | sell | 25464 |
+| GBP | LAK | buy | 29646 |
+| GBP | LAK | sell | 30239 |
 | HKD | LAK | buy | 2796 |
 | HKD | LAK | sell | 2853 |
-| JPY | LAK | buy | 143.02 |
-| JPY | LAK | sell | 145.88 |
-| KRW | LAK | buy | 16.15 |
-| KRW | LAK | sell | 16.45 |
-| MYR | LAK | buy | 5377 |
-| MYR | LAK | sell | 5485 |
-| SGD | LAK | buy | 17116 |
-| SGD | LAK | sell | 17456 |
+| JPY | LAK | buy | 143.11 |
+| JPY | LAK | sell | 145.97 |
+| KRW | LAK | buy | 16.3 |
+| KRW | LAK | sell | 16.61 |
+| MYR | LAK | buy | 5383 |
+| MYR | LAK | sell | 5490 |
+| SGD | LAK | buy | 17153 |
+| SGD | LAK | sell | 17494 |
 | THB | LAK | buy | 673.7 |
 | THB | LAK | sell | 684 |
 | USD | LAK | buy | 22392 |
 | USD | LAK | sell | 22615 |
-| VND | LAK | buy | 0.8489 |
-| VND | LAK | sell | 0.8659 |
+| VND | LAK | buy | 0.8479 |
+| VND | LAK | sell | 0.8648 |
+
+</details>
 
 Source: [Official rates published by BOL, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bol/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -347,7 +350,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/bank-of-laos-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/bank-of-laos-exchange-rate)
 
 ## 📜 License
