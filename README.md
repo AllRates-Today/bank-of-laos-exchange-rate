@@ -47,38 +47,38 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Bank of the Lao PDR — 28 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-20 by Bank of the Lao PDR — 28 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | LAK | buy | 15447 |
-| AUD | LAK | sell | 15756 |
-| CAD | LAK | buy | 15702 |
-| CAD | LAK | sell | 16015 |
-| CHF | LAK | buy | 26901 |
-| CHF | LAK | sell | 27439 |
-| CNY | LAK | buy | 3333 |
-| CNY | LAK | sell | 3358 |
-| EUR | LAK | buy | 25210 |
-| EUR | LAK | sell | 25464 |
-| GBP | LAK | buy | 29646 |
-| GBP | LAK | sell | 30239 |
-| HKD | LAK | buy | 2796 |
-| HKD | LAK | sell | 2853 |
-| JPY | LAK | buy | 143.11 |
-| JPY | LAK | sell | 145.97 |
-| KRW | LAK | buy | 16.3 |
-| KRW | LAK | sell | 16.61 |
-| MYR | LAK | buy | 5383 |
-| MYR | LAK | sell | 5490 |
-| SGD | LAK | buy | 17153 |
-| SGD | LAK | sell | 17494 |
-| THB | LAK | buy | 673.7 |
-| THB | LAK | sell | 684 |
-| USD | LAK | buy | 22392 |
-| USD | LAK | sell | 22615 |
-| VND | LAK | buy | 0.8479 |
-| VND | LAK | sell | 0.8648 |
+| AUD | LAK | buy | 15475 |
+| AUD | LAK | sell | 15784 |
+| CAD | LAK | buy | 15740 |
+| CAD | LAK | sell | 16055 |
+| CHF | LAK | buy | 26861 |
+| CHF | LAK | sell | 27398 |
+| CNY | LAK | buy | 3336 |
+| CNY | LAK | sell | 3361 |
+| EUR | LAK | buy | 25200 |
+| EUR | LAK | sell | 25454 |
+| GBP | LAK | buy | 29621 |
+| GBP | LAK | sell | 30213 |
+| HKD | LAK | buy | 2797 |
+| HKD | LAK | sell | 2854 |
+| JPY | LAK | buy | 142.69 |
+| JPY | LAK | sell | 145.54 |
+| KRW | LAK | buy | 16.39 |
+| KRW | LAK | sell | 16.7 |
+| MYR | LAK | buy | 5380 |
+| MYR | LAK | sell | 5487 |
+| SGD | LAK | buy | 17170 |
+| SGD | LAK | sell | 17511 |
+| THB | LAK | buy | 672.9 |
+| THB | LAK | sell | 683.2 |
+| USD | LAK | buy | 22400 |
+| USD | LAK | sell | 22623 |
+| VND | LAK | buy | 0.848 |
+| VND | LAK | sell | 0.865 |
 
 </details>
 
