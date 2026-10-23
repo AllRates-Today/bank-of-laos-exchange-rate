@@ -47,38 +47,38 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-22 by Bank of the Lao PDR — 28 rates. Updated 2026-10-22.</summary>
+<summary>Table as text: published 2026-10-23 by Bank of the Lao PDR — 28 rates. Updated 2026-10-23.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | LAK | buy | 15577 |
-| AUD | LAK | sell | 15888 |
-| CAD | LAK | buy | 15789 |
-| CAD | LAK | sell | 16104 |
-| CHF | LAK | buy | 26900 |
-| CHF | LAK | sell | 27438 |
-| CNY | LAK | buy | 3338 |
-| CNY | LAK | sell | 3363 |
-| EUR | LAK | buy | 25225 |
-| EUR | LAK | sell | 25479 |
-| GBP | LAK | buy | 29784 |
-| GBP | LAK | sell | 30379 |
-| HKD | LAK | buy | 2797 |
-| HKD | LAK | sell | 2854 |
-| JPY | LAK | buy | 143.05 |
-| JPY | LAK | sell | 145.91 |
-| KRW | LAK | buy | 16.39 |
-| KRW | LAK | sell | 16.7 |
-| MYR | LAK | buy | 5380 |
-| MYR | LAK | sell | 5488 |
-| SGD | LAK | buy | 17191 |
-| SGD | LAK | sell | 17532 |
-| THB | LAK | buy | 672.9 |
-| THB | LAK | sell | 683.2 |
-| USD | LAK | buy | 22394 |
-| USD | LAK | sell | 22617 |
-| VND | LAK | buy | 0.8499 |
-| VND | LAK | sell | 0.8669 |
+| AUD | LAK | buy | 15575 |
+| AUD | LAK | sell | 15887 |
+| CAD | LAK | buy | 15842 |
+| CAD | LAK | sell | 16159 |
+| CHF | LAK | buy | 27049 |
+| CHF | LAK | sell | 27590 |
+| CNY | LAK | buy | 3341 |
+| CNY | LAK | sell | 3366 |
+| EUR | LAK | buy | 25207 |
+| EUR | LAK | sell | 25461 |
+| GBP | LAK | buy | 29818 |
+| GBP | LAK | sell | 30414 |
+| HKD | LAK | buy | 2799 |
+| HKD | LAK | sell | 2857 |
+| JPY | LAK | buy | 144.66 |
+| JPY | LAK | sell | 147.56 |
+| KRW | LAK | buy | 16.46 |
+| KRW | LAK | sell | 16.77 |
+| MYR | LAK | buy | 5381 |
+| MYR | LAK | sell | 5489 |
+| SGD | LAK | buy | 17195 |
+| SGD | LAK | sell | 17537 |
+| THB | LAK | buy | 671.9 |
+| THB | LAK | sell | 682.2 |
+| USD | LAK | buy | 22398 |
+| USD | LAK | sell | 22621 |
+| VND | LAK | buy | 0.8494 |
+| VND | LAK | sell | 0.8664 |
 
 </details>
 
