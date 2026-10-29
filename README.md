@@ -47,38 +47,38 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Bank of the Lao PDR — 28 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Bank of the Lao PDR — 28 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | LAK | buy | 15641 |
-| AUD | LAK | sell | 15954 |
-| CAD | LAK | buy | 15796 |
-| CAD | LAK | sell | 16112 |
-| CHF | LAK | buy | 26773 |
-| CHF | LAK | sell | 27308 |
-| CNY | LAK | buy | 3348 |
-| CNY | LAK | sell | 3374 |
-| EUR | LAK | buy | 25023 |
-| EUR | LAK | sell | 25276 |
-| GBP | LAK | buy | 29632 |
-| GBP | LAK | sell | 30224 |
-| HKD | LAK | buy | 2802 |
-| HKD | LAK | sell | 2859 |
-| JPY | LAK | buy | 143.5 |
-| JPY | LAK | sell | 146.37 |
+| AUD | LAK | buy | 15682 |
+| AUD | LAK | sell | 15996 |
+| CAD | LAK | buy | 15885 |
+| CAD | LAK | sell | 16202 |
+| CHF | LAK | buy | 26802 |
+| CHF | LAK | sell | 27338 |
+| CNY | LAK | buy | 3347 |
+| CNY | LAK | sell | 3372 |
+| EUR | LAK | buy | 25063 |
+| EUR | LAK | sell | 25316 |
+| GBP | LAK | buy | 29673 |
+| GBP | LAK | sell | 30266 |
+| HKD | LAK | buy | 2800 |
+| HKD | LAK | sell | 2857 |
+| JPY | LAK | buy | 143.42 |
+| JPY | LAK | sell | 146.28 |
 | KRW | LAK | buy | 16.32 |
 | KRW | LAK | sell | 16.63 |
-| MYR | LAK | buy | 5383 |
-| MYR | LAK | sell | 5491 |
-| SGD | LAK | buy | 17159 |
-| SGD | LAK | sell | 17501 |
+| MYR | LAK | buy | 5401 |
+| MYR | LAK | sell | 5509 |
+| SGD | LAK | buy | 17161 |
+| SGD | LAK | sell | 17502 |
 | THB | LAK | buy | 671.9 |
 | THB | LAK | sell | 682.2 |
-| USD | LAK | buy | 22429 |
-| USD | LAK | sell | 22652 |
-| VND | LAK | buy | 0.8508 |
-| VND | LAK | sell | 0.8678 |
+| USD | LAK | buy | 22418 |
+| USD | LAK | sell | 22641 |
+| VND | LAK | buy | 0.85 |
+| VND | LAK | sell | 0.867 |
 
 </details>
 
@@ -244,6 +244,7 @@ The Bank of the Lao PDR publishes daily reference buying and selling rates for 1
 
 - Publisher's own page: [Reference exchange rates](https://www.bol.gov.la/ExchangRate.php) · [www.bol.gov.la](https://www.bol.gov.la)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Bank of the Lao PDR rates page](https://allratestoday.com/central-bank-rates-api/bol/)
+- In the API: usually by **15:55 UTC** (measured over the last 9 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
