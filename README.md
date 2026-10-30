@@ -24,61 +24,46 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest Bank of the Lao PDR table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/bol?source=USD&target=LAK"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/bol').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest Bank of the Lao PDR table](https://allratestoday.com/api/open/central-bank/bol/table.svg)](https://allratestoday.com/central-bank-rates-api/bol/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by Bank of the Lao PDR — 28 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by Bank of the Lao PDR — 28 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | LAK | buy | 15682 |
-| AUD | LAK | sell | 15996 |
-| CAD | LAK | buy | 15885 |
-| CAD | LAK | sell | 16202 |
-| CHF | LAK | buy | 26802 |
-| CHF | LAK | sell | 27338 |
-| CNY | LAK | buy | 3347 |
-| CNY | LAK | sell | 3372 |
-| EUR | LAK | buy | 25063 |
-| EUR | LAK | sell | 25316 |
-| GBP | LAK | buy | 29673 |
-| GBP | LAK | sell | 30266 |
-| HKD | LAK | buy | 2800 |
-| HKD | LAK | sell | 2857 |
-| JPY | LAK | buy | 143.42 |
-| JPY | LAK | sell | 146.28 |
-| KRW | LAK | buy | 16.32 |
-| KRW | LAK | sell | 16.63 |
-| MYR | LAK | buy | 5401 |
-| MYR | LAK | sell | 5509 |
-| SGD | LAK | buy | 17161 |
-| SGD | LAK | sell | 17502 |
+| AUD | LAK | buy | 15584 |
+| AUD | LAK | sell | 15895 |
+| CAD | LAK | buy | 15887 |
+| CAD | LAK | sell | 16205 |
+| CHF | LAK | buy | 27060 |
+| CHF | LAK | sell | 27601 |
+| CNY | LAK | buy | 3348 |
+| CNY | LAK | sell | 3373 |
+| EUR | LAK | buy | 25192 |
+| EUR | LAK | sell | 25446 |
+| GBP | LAK | buy | 29825 |
+| GBP | LAK | sell | 30422 |
+| HKD | LAK | buy | 2799 |
+| HKD | LAK | sell | 2856 |
+| JPY | LAK | buy | 143.9 |
+| JPY | LAK | sell | 146.78 |
+| KRW | LAK | buy | 16.26 |
+| KRW | LAK | sell | 16.56 |
+| MYR | LAK | buy | 5437 |
+| MYR | LAK | sell | 5545 |
+| SGD | LAK | buy | 17187 |
+| SGD | LAK | sell | 17529 |
 | THB | LAK | buy | 671.9 |
 | THB | LAK | sell | 682.2 |
-| USD | LAK | buy | 22418 |
-| USD | LAK | sell | 22641 |
-| VND | LAK | buy | 0.85 |
-| VND | LAK | sell | 0.867 |
+| USD | LAK | buy | 22407 |
+| USD | LAK | sell | 22630 |
+| VND | LAK | buy | 0.8514 |
+| VND | LAK | sell | 0.8684 |
 
 </details>
 
