@@ -32,38 +32,38 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-09 by Bank of the Lao PDR — 28 rates. Updated 2026-11-09.</summary>
+<summary>Table as text: published 2026-11-10 by Bank of the Lao PDR — 28 rates. Updated 2026-11-10.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | LAK | buy | 15291 |
-| AUD | LAK | sell | 15596 |
-| CAD | LAK | buy | 15716 |
-| CAD | LAK | sell | 16030 |
-| CHF | LAK | buy | 27029 |
-| CHF | LAK | sell | 27569 |
+| AUD | LAK | buy | 15352 |
+| AUD | LAK | sell | 15659 |
+| CAD | LAK | buy | 15705 |
+| CAD | LAK | sell | 16018 |
+| CHF | LAK | buy | 27068 |
+| CHF | LAK | sell | 27609 |
 | CNY | LAK | buy | 3339 |
 | CNY | LAK | sell | 3364 |
-| EUR | LAK | buy | 25056 |
-| EUR | LAK | sell | 25309 |
-| GBP | LAK | buy | 29750 |
-| GBP | LAK | sell | 30344 |
-| HKD | LAK | buy | 2800 |
-| HKD | LAK | sell | 2857 |
-| JPY | LAK | buy | 142.99 |
-| JPY | LAK | sell | 145.85 |
-| KRW | LAK | buy | 15.99 |
-| KRW | LAK | sell | 16.29 |
-| MYR | LAK | buy | 5414 |
-| MYR | LAK | sell | 5522 |
-| SGD | LAK | buy | 17131 |
-| SGD | LAK | sell | 17472 |
+| EUR | LAK | buy | 25208 |
+| EUR | LAK | sell | 25462 |
+| GBP | LAK | buy | 29902 |
+| GBP | LAK | sell | 30499 |
+| HKD | LAK | buy | 2797 |
+| HKD | LAK | sell | 2854 |
+| JPY | LAK | buy | 143.15 |
+| JPY | LAK | sell | 146.01 |
+| KRW | LAK | buy | 16.18 |
+| KRW | LAK | sell | 16.49 |
+| MYR | LAK | buy | 5418 |
+| MYR | LAK | sell | 5526 |
+| SGD | LAK | buy | 17175 |
+| SGD | LAK | sell | 17516 |
 | THB | LAK | buy | 670.9 |
 | THB | LAK | sell | 681.2 |
-| USD | LAK | buy | 22400 |
-| USD | LAK | sell | 22623 |
-| VND | LAK | buy | 0.8584 |
-| VND | LAK | sell | 0.8756 |
+| USD | LAK | buy | 22389 |
+| USD | LAK | sell | 22612 |
+| VND | LAK | buy | 0.8591 |
+| VND | LAK | sell | 0.8763 |
 
 </details>
 
