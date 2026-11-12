@@ -32,38 +32,38 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-11 by Bank of the Lao PDR — 28 rates. Updated 2026-11-11.</summary>
+<summary>Table as text: published 2026-11-12 by Bank of the Lao PDR — 28 rates. Updated 2026-11-12.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | LAK | buy | 15247 |
-| AUD | LAK | sell | 15552 |
-| CAD | LAK | buy | 15626 |
-| CAD | LAK | sell | 15938 |
-| CHF | LAK | buy | 26849 |
-| CHF | LAK | sell | 27386 |
-| CNY | LAK | buy | 3341 |
-| CNY | LAK | sell | 3366 |
-| EUR | LAK | buy | 25068 |
-| EUR | LAK | sell | 25322 |
-| GBP | LAK | buy | 29689 |
-| GBP | LAK | sell | 30283 |
-| HKD | LAK | buy | 2797 |
-| HKD | LAK | sell | 2854 |
-| JPY | LAK | buy | 142.32 |
-| JPY | LAK | sell | 145.17 |
-| KRW | LAK | buy | 16.25 |
-| KRW | LAK | sell | 16.56 |
-| MYR | LAK | buy | 5399 |
-| MYR | LAK | sell | 5507 |
-| SGD | LAK | buy | 17134 |
-| SGD | LAK | sell | 17474 |
-| THB | LAK | buy | 670.5 |
+| AUD | LAK | buy | 15185 |
+| AUD | LAK | sell | 15488 |
+| CAD | LAK | buy | 15567 |
+| CAD | LAK | sell | 15879 |
+| CHF | LAK | buy | 26656 |
+| CHF | LAK | sell | 27189 |
+| CNY | LAK | buy | 3342 |
+| CNY | LAK | sell | 3367 |
+| EUR | LAK | buy | 24927 |
+| EUR | LAK | sell | 25179 |
+| GBP | LAK | buy | 29537 |
+| GBP | LAK | sell | 30128 |
+| HKD | LAK | buy | 2798 |
+| HKD | LAK | sell | 2855 |
+| JPY | LAK | buy | 141.75 |
+| JPY | LAK | sell | 144.58 |
+| KRW | LAK | buy | 16.28 |
+| KRW | LAK | sell | 16.59 |
+| MYR | LAK | buy | 5389 |
+| MYR | LAK | sell | 5496 |
+| SGD | LAK | buy | 17102 |
+| SGD | LAK | sell | 17442 |
+| THB | LAK | buy | 670.4 |
 | THB | LAK | sell | 680.4 |
-| USD | LAK | buy | 22395 |
-| USD | LAK | sell | 22618 |
-| VND | LAK | buy | 0.8577 |
-| VND | LAK | sell | 0.8749 |
+| USD | LAK | buy | 22401 |
+| USD | LAK | sell | 22624 |
+| VND | LAK | buy | 0.8561 |
+| VND | LAK | sell | 0.8732 |
 
 </details>
 
