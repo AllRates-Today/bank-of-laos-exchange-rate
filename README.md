@@ -31,43 +31,7 @@ Get a free API key at [allratestoday.com/register](https://allratestoday.com/reg
 The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-<details>
-<summary>Table as text: published 2026-11-13 by Bank of the Lao PDR — 28 rates. Updated 2026-11-13.</summary>
-
-| Base | Quote | Type | Rate |
-| --- | --- | --- | ---: |
-| AUD | LAK | buy | 15118 |
-| AUD | LAK | sell | 15420 |
-| CAD | LAK | buy | 15566 |
-| CAD | LAK | sell | 15877 |
-| CHF | LAK | buy | 26564 |
-| CHF | LAK | sell | 27095 |
-| CNY | LAK | buy | 3343 |
-| CNY | LAK | sell | 3368 |
-| EUR | LAK | buy | 24855 |
-| EUR | LAK | sell | 25106 |
-| GBP | LAK | buy | 29463 |
-| GBP | LAK | sell | 30052 |
-| HKD | LAK | buy | 2799 |
-| HKD | LAK | sell | 2856 |
-| JPY | LAK | buy | 141.57 |
-| JPY | LAK | sell | 144.4 |
-| KRW | LAK | buy | 16.35 |
-| KRW | LAK | sell | 16.66 |
-| MYR | LAK | buy | 5383 |
-| MYR | LAK | sell | 5491 |
-| SGD | LAK | buy | 17076 |
-| SGD | LAK | sell | 17416 |
-| THB | LAK | buy | 670.4 |
-| THB | LAK | sell | 680.4 |
-| USD | LAK | buy | 22407 |
-| USD | LAK | sell | 22630 |
-| VND | LAK | buy | 0.8555 |
-| VND | LAK | sell | 0.8726 |
-
-</details>
-
-Source: [Official rates published by BOL, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bol/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+_The table is filled in by the daily workflow._
 <!-- daily-table:end -->
 
 ## 📦 Installation
