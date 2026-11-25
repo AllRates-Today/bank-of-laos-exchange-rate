@@ -32,38 +32,38 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-24 by Bank of the Lao PDR — 28 rates. Updated 2026-11-24.</summary>
+<summary>Table as text: published 2026-11-25 by Bank of the Lao PDR — 28 rates. Updated 2026-11-25.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | LAK | buy | 14753 |
-| AUD | LAK | sell | 15048 |
-| CAD | LAK | buy | 15486 |
-| CAD | LAK | sell | 15795 |
-| CHF | LAK | buy | 26434 |
-| CHF | LAK | sell | 26962 |
-| CNY | LAK | buy | 3353 |
-| CNY | LAK | sell | 3378 |
-| EUR | LAK | buy | 24578 |
-| EUR | LAK | sell | 24826 |
-| GBP | LAK | buy | 29091 |
-| GBP | LAK | sell | 29672 |
-| HKD | LAK | buy | 2807 |
-| HKD | LAK | sell | 2864 |
-| JPY | LAK | buy | 142.75 |
-| JPY | LAK | sell | 145.61 |
-| KRW | LAK | buy | 16.2 |
-| KRW | LAK | sell | 16.5 |
-| MYR | LAK | buy | 5350 |
-| MYR | LAK | sell | 5457 |
-| SGD | LAK | buy | 17054 |
-| SGD | LAK | sell | 17393 |
+| AUD | LAK | buy | 14760 |
+| AUD | LAK | sell | 15055 |
+| CAD | LAK | buy | 15572 |
+| CAD | LAK | sell | 15883 |
+| CHF | LAK | buy | 26576 |
+| CHF | LAK | sell | 27107 |
+| CNY | LAK | buy | 3351 |
+| CNY | LAK | sell | 3376 |
+| EUR | LAK | buy | 24659 |
+| EUR | LAK | sell | 24908 |
+| GBP | LAK | buy | 29217 |
+| GBP | LAK | sell | 29801 |
+| HKD | LAK | buy | 2804 |
+| HKD | LAK | sell | 2861 |
+| JPY | LAK | buy | 142.31 |
+| JPY | LAK | sell | 145.16 |
+| KRW | LAK | buy | 16.26 |
+| KRW | LAK | sell | 16.57 |
+| MYR | LAK | buy | 5356 |
+| MYR | LAK | sell | 5463 |
+| SGD | LAK | buy | 17064 |
+| SGD | LAK | sell | 17404 |
 | THB | LAK | buy | 668.4 |
 | THB | LAK | sell | 678.4 |
-| USD | LAK | buy | 22460 |
-| USD | LAK | sell | 22683 |
-| VND | LAK | buy | 0.8542 |
-| VND | LAK | sell | 0.8713 |
+| USD | LAK | buy | 22444 |
+| USD | LAK | sell | 22667 |
+| VND | LAK | buy | 0.8536 |
+| VND | LAK | sell | 0.8706 |
 
 </details>
 
